@@ -21,6 +21,7 @@ console.log(y) // Uncaught ReferenceError: y is not defined 에러 출력
 ```
 
 var로 선안한 x를 콘솔로 찍어보면 7이 정상적으로 출력되지만 let으로 출력한 y는 에러가 발생한다.
+
 var는 함수스코프를 가지기 때문에 if의 블록과 상관없이 접근이 가능하지만, let 또는 const는 블록 스코프를 가지므로 if 블록 밖에서는 변수에 접근을 할 수가 없다.
 ( '{}'로 묶은 부분 블록의 범위 )
 
