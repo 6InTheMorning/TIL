@@ -16,7 +16,7 @@ function not1(x) {
 }
 ```
 
-## arrow functiong (화살표 함수)
+## arrow function (화살표 함수)
 
 ```javascript
 const exam3 = (x, y) => {
