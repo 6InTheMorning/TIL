@@ -13,7 +13,7 @@ Promise는 실행될 때마다 진행상태를 체크함
 Promise를 수행하고 있는 상태
 
 **fulfilled:**
-Promise가 성공적으로 수행된 상태
+Promise가 성공적으로 수행된 상태
 
 **rejected:**
 Promise가 수행에 실패한 상태
