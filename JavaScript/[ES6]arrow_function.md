@@ -54,12 +54,12 @@ var es5 = {
 
 es5.printFriends()
 
-var es6 = {
+let es6 = {
   name: "vanilla",
   friends: ["cookie", "mango", "apple"],
   printFriends: function() {
     this.friends.forEach(friend => {
-      console.log(that.name, friend)
+      console.log(this.name, friend)
     })
   }
 }
