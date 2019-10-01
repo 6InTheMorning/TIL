@@ -15,3 +15,6 @@
 - element: 리액트 요소
 - instanceOf: 특정 클래스의 인스턴스
 - oneOf( ['a', 'b'] ): 주어진 배열 요소 중 값 하나
+- arrayOf(React.PropTypes.Number): 주어진 종류로 구성된 배열
+- objectOf(React.PropTypes.number): 주어진 종류 값을 가진 책체
+- any: 아무 종류
