@@ -60,9 +60,8 @@ champion.newChamp() === window //false
 
 ## 4. call, apply, bind를 이용하여 this를 바인딩하여 함수를 호출할 수 있다
     call과 apply는 함수를 즉시 호출하고 bind는 this를 바인딩한 새로운 함수를 리턴한다.
-<br/> 
 
-* # call
+* ## call
 ```javascript
 function champion(a, b, c){
   console.log(`Champion is ${this.name}`);
@@ -77,9 +76,8 @@ champion.call(corssfitter, 1, 2, 3); //첫번째 인자가 this로 바인딩할 
 // Champion is Mathew Fraser
 // 6
 ```
-<br/>
 
-* # apply
+* ## apply
 ```javascript
 function champion(a, b, c){
   console.log(`Champion is ${this.name}`);
@@ -97,9 +95,8 @@ champion.apply(corssfitter, [1, 2, 3]);
  /* 첫번째 인자를 this로 바인딩하는 것은 call과 같지만,
     apply는 나머지 인자를 배열 형태로 전달한다. */
 ```
-<br/>
 
-* # bind
+* ## bind
 ```javascript
 function champion(a, b, c){
   console.log(`Champion is ${this.name}`);
